@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Pacifico&display=swap');
+
+/************************************************
+  Common Style
+************************************************/
+.section-wrapper {
+  padding: 50px;
+
+}
+.section-title {
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.section-even {
+  background-color: #f0f0f0;
+}
+a {
+  text-decoration: none;
+}
+/************************************************
+  Header Style
+************************************************/
+.navbar-brand {
+  max-height: 70px;
+  font-family: 'Pacifico', cursive;
+}
+/************************************************
+  Top Section Style
+************************************************/
+.top {
+  background-image: url(../img/cover.JPG);
+  background-size: cover;
+  background-position: 50% 90%;
+  min-height: 10em;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.2rem solid #212529;
+}
+.top-title {
+  font-size: 5em;
+  font-family: 'Abril Fatface', cursive;
+}
+.top-subtitle {
+  font-weight: bold;
+}
+/************************************************
+  About Section Style
+************************************************/
+.about-text-headline {
+  font-weight: bold;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+.about-text-headline::before {
+  content: '－';
+}
+.about-text-headline::after {
+  content: '－';
+}
+/************************************************
+  Service Section Style
+************************************************/
+.service-col .card-img-top {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 50%;
+}
+.service-col .card-title {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+/************************************************
+  Works Section Style
+************************************************/
+.works-col .card-img-top {
+  height: 300px;
+  width: auto;
+  object-fit: cover;
+  object-position: 50% 0;
+}
+/************************************************
+  Contact Section Style
+************************************************/
+.contact-message {
+  margin-bottom: 30px;
+}
+.contact-content {
+  text-align: center;
+}
+.contact-ways {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.contact-ways i {
+  font-size: 50px;
+}
